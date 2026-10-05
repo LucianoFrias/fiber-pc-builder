@@ -147,3 +147,20 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Dependencias
+node_modules/
+
+# Variables de entorno (NUNCA subir)
+.env
+.env.local
+.env*.local
+
+# Builds
+.next/
+dist/
+build/
+
+# Otros
+.DS_Store
+*.log
